@@ -1040,3 +1040,15 @@ h4 {
         text-align: center;
     }
 }
+
+.bloc-p-def, 
+.citation, 
+.activities, 
+.title-ft, 
+.contact {
+    font-size: 22px;
+}
+
+.contact {
+    font-weight: 600;
+}
