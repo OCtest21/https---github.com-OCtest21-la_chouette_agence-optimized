@@ -1,12 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: #FFF;
-    overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -659,10 +650,11 @@ a {
     margin: auto auto auto auto;
 }
 
+/*
 p {
     font-size: 11px;
 }
-
+*/
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
