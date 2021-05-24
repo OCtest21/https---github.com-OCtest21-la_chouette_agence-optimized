@@ -741,11 +741,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-}
-
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    width: 100%;
+    margin-top: 70px;
 }
 
 .avatar {
@@ -758,6 +755,8 @@ h4 {
 }
 
 .bold-link {
+    display: block;
+    margin-top: 30px;
     font-weight: 900;
     text-decoration: underline!important;
 }
@@ -779,13 +778,13 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    color: rgb(0, 0, 0);
+    background: #c27956!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #c27956!important;
+    background: black!important;
 }
 
 .ltc-white {
@@ -822,7 +821,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -974,13 +973,13 @@ h4 {
         margin-left: 10px;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 40px 10px;
     }
     .bloc-sm,
     .bloc-md {
@@ -1026,12 +1025,20 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+    .black-background {
+        background-color: rgba(5, 5, 5, 0.6);
+        padding: 40px 0px;
+    }
+    .hero-bloc-text {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
@@ -1041,57 +1048,6 @@ h4 {
     }
 }
 
-.bloc-p-def, 
-.citation, 
-.activities, 
-.title-ft, 
-.contact {
+.bloc-p-def, .citation, .activities, .contact {
     font-size: 22px;
-}
-
-.contact {
-    font-weight: 600;
-}
-
-.title-ft {
-    margin: 30px;
-}
-
-.activities {
-    margin-bottom: 30px;
-}
-
-
-.citation {
-    font-style: italic;
-    padding: 0 30px;
-    margin-bottom: 3px;
-}
-
-.citation + p {
-    font-size: 1.09em;
-}
-
-.link {
-    font-size: 15px;
-    margin-top: 30px;
-}
-
-.list li{
-    font-size: 1.2em;
-    margin: 5px;
-}
-
-.link a{
-    margin: 10px;
-    color: black!important;
-}
-
-.link a:hover {
-    text-shadow: 1px 1px 1px black;
-}
-
-.icon-md:hover, 
-.social:focus {
-    text-shadow:2px 2px 2px black;
 }
