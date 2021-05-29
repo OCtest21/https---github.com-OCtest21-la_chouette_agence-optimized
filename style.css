@@ -84,6 +84,7 @@ a:hover {
     background-size: 280px 280px;
 }
 
+
 .b-parallax {
     background-attachment: fixed;
 }
@@ -107,6 +108,7 @@ a:hover {
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
 }
+
 
 .d-bloc .a-btn,
 .d-bloc .navbar a,
@@ -223,24 +225,6 @@ a:hover {
     color: rgba(0, 0, 0, .6);
 }
 
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
-}
-
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
@@ -271,6 +255,9 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
+*/
+
+
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -1004,3 +991,8 @@ body
     margin: auto;
 }
 
+.button-color
+{
+    background-color: #ff5300!important;
+    color: white;
+}
