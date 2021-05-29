@@ -184,7 +184,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.956);
 }
 
 .d-bloc .panel button:hover,
@@ -307,7 +307,6 @@ a:hover {
 .navbar .nav {
     padding-top: 2px;
     margin-right: -16px;
-    float: right;
     z-index: 1;
 }
 
@@ -613,21 +612,6 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-label,
-.btn,
-a {
-    font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
-}
-
 .container {
     max-width: 1000px;
 }
@@ -650,20 +634,11 @@ a {
     margin: auto auto auto auto;
 }
 
-/*
-p {
-    font-size: 11px;
-}
-*/
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}
 
 .cta-hero {
     margin-top: 22px;
@@ -679,13 +654,19 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
+h1 {
+    font-size: 20px;
+    text-shadow: 0px 5px 8px black;
+    color: #333333!important;
 }
 
-h3 {
-    font-size: 15px;
+p
+{
+    font-size: 17px;
+}
+
+h2, h3, h4 {
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -697,13 +678,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
-}
 
 .icons {
     margin-bottom: 14px;
@@ -749,7 +723,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -758,8 +732,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    color: #ff6e28!important;
-    background: black!important;
+    color: #ffffff!important;
+    background: #ff9a73!important;
 }
 
 .ltc-white {
@@ -857,6 +831,7 @@ h4 {
         padding: 0 20px;
     }
 }
+
 
 @media (max-width: 767px) {
     .page-container {
@@ -1011,3 +986,21 @@ h4 {
 .bloc-p-def, .citation, .activities, .contact {
     font-size: 22px;
 }
+
+.section_contact
+{
+    margin: 0px 40px 0px 40px;
+}
+
+label
+{
+    color: white;
+    font-weight: bold;
+}
+
+body
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
